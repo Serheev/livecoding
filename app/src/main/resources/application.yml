@@ -3,3 +3,7 @@ spring:
     url: jdbc:postgresql://localhost:5432/itea_lesson
     password: postgres
     username: postgres
+  flyway:
+    url: ${spring.datasource.url}
+    password: ${spring.datasource.password}
+    user: ${spring.datasource.username}
