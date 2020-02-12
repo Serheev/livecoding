@@ -1,4 +1,4 @@
-package com.serheev.livecoding;
+package com.serheev;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
